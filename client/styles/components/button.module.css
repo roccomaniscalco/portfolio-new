@@ -1,0 +1,22 @@
+.btn {
+  outline: none;
+  border: none;
+  background: none;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #f3f4f5;
+}
+
+.btnPrimary {
+  padding: 1rem 3rem;
+  border-radius: 2.4rem;
+  background: #5a45d8;
+}
+
+.btnSecondary {
+  padding: 1rem 3rem;
+  border-radius: 2.4rem;
+  border: 1px solid #f3f4f5;
+}

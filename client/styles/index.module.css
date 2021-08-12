@@ -37,3 +37,9 @@
   left: 115px;
   z-index: -99;
 }
+
+.btnGroup {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}

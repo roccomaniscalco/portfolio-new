@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Button";
 import styles from "../styles/index.module.css";
 
 const index = () => {
@@ -15,6 +16,10 @@ const index = () => {
             leveraging modern web technologies to build applications that
             deliver impact.
           </p>
+          <div className={styles.btnGroup}>
+            <Button primary>Let's connect</Button>
+            <Button secondary>Download resume</Button>
+          </div>
         </div>
         <img
           src="/orange-flare.png"
