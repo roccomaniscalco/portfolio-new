@@ -3,10 +3,44 @@ html,
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
 }
 
 body {
-  background-color: #1b2635;
-  font-family: 'Poppins', sans-serif;
-  font-size: 10px;
+  /* Color styles */
+  --light-100: #f3f4f5;
+  --light-200: #dde0e4;
+
+  --dark-500: #233044;
+  --dark-700: #1b2635;
+
+  --fire-500: #ee8e6b;
+  --fire-700: #fe5f75;
+
+  background-color: var(--dark-700);
+}
+
+h1 {
+  font-size: 6.4rem;
+  line-height: 110%;
+  font-weight: 700;
+  color: var(--light-100);
+}
+
+p {
+  font-size: 2rem;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--light-200);
+}
+
+strong {
+  font-size: 2rem;
+  line-height: 150%;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: inherit;
 }

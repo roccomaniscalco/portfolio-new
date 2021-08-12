@@ -1,0 +1,22 @@
+#landingContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#copyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 58em;
+}
+
+.fireH1 {
+  font-size: 6.4rem;
+  line-height: 110%;
+  font-weight: 700;
+
+  background: linear-gradient(180deg, #ee8e6b 20%, #fe5f75 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
