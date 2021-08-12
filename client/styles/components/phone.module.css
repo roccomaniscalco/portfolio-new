@@ -1,0 +1,22 @@
+#phoneContainer {
+  position: absolute;
+  top: auto;
+  right: 0;
+  height: 880px;
+  width: 400px;
+}
+
+#phoneGlass {
+  position: absolute;
+  top: 90px;
+  left: 10px;
+  z-index: -1;
+
+}
+
+#phoneShell {
+  position: absolute;
+  top: 0;
+  right: -180px;
+  z-index: -5;
+}

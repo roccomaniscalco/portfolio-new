@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import Icon from "../components/Icon";
+import Phone from "../components/Phone";
 import styles from "../styles/index.module.css";
 
 const index = () => {
@@ -26,6 +27,7 @@ const index = () => {
             </Button>
           </div>
         </div>
+        <Phone />
         <img
           src="/orange-flare.png"
           id={styles.orangeFlare}

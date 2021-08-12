@@ -33,7 +33,7 @@
 
 #orangeFlare {
   position: absolute;
-  top: 50;
+  top: auto;
   left: 115px;
   z-index: -99;
 }
