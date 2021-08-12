@@ -1,12 +1,15 @@
 #layoutContainer {
   display: flex;
   justify-content: center;
-  margin: 0 2rem;
+  padding: 0 2rem;
+
+  overflow-x: hidden;
 }
 
 #landingContainer {
   display: flex;
   align-items: center;
+  position: relative;
   height: 100vh;
   width: 108rem;
 }
@@ -26,4 +29,11 @@
   background: linear-gradient(180deg, #ee8e6b 20%, #fe5f75 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+#orangeFlare {
+  position: absolute;
+  top: 50;
+  left: 115px;
+  z-index: -99;
 }

@@ -16,6 +16,11 @@ const index = () => {
             deliver impact.
           </p>
         </div>
+        <img
+          src="/orange-flare.png"
+          id={styles.orangeFlare}
+          alt="orange flare"
+        />
       </div>
     </div>
   );
