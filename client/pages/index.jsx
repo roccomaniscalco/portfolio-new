@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
+import Icon from "../components/Icon";
 import styles from "../styles/index.module.css";
 
 const index = () => {
@@ -17,8 +18,12 @@ const index = () => {
             deliver impact.
           </p>
           <div className={styles.btnGroup}>
-            <Button primary>Let's connect</Button>
-            <Button secondary>Download resume</Button>
+            <Button primary>
+              Let's connect <Icon ciClass={"ci-chevron_right"} />
+            </Button>
+            <Button secondary>
+              Download resume <Icon ciClass={"ci-download"} />
+            </Button>
           </div>
         </div>
         <img

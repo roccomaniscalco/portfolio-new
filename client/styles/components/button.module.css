@@ -3,9 +3,14 @@
   border: none;
   background: none;
 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 0.05em;
+  white-space: nowrap;
   color: #f3f4f5;
 }
 
