@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useCursor from "../customHooks/useCursor";
+
 import Button from "../components/Button";
 import Icon from "../components/Icon";
 import Phone from "../components/Phone";
+
 import styles from "../styles/index.module.css";
 
 const index = () => {
+  const [cursor, targetEl] = useCursor();
+
+  useEffect(() => {
+    console.log(cursor);
+  }, [cursor]);
+
   return (
-    <div id={styles.layoutContainer}>
+    <div id={styles.layoutContainer} ref={targetEl}>
       <div id={styles.landingContainer}>
         <div id={styles.copyContainer}>
           <h1>
