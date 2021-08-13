@@ -8,10 +8,21 @@
 
 #phoneGlass {
   position: absolute;
-  top: 90px;
-  left: 10px;
+  top: 110px;
+  left: 20px;
   z-index: -1;
 
+  animation: glassLevitate 4s ease 1s infinite alternate;
+}
+
+@keyframes glassLevitate {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(-25px, -25px);
+  }
 }
 
 #phoneShell {
