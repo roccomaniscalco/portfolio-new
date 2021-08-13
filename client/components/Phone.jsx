@@ -1,19 +1,6 @@
-import { useEffect, useState } from "react";
 import styles from "../styles/components/phone.module.css";
 
 function Phone({ cursor }) {
-  const [glassOffset, setGlassOffset] = useState({ xOffset: 0, yOffset: 110 });
-
-  useEffect(() => {
-    if (cursor) {
-      const { clientX, clientY } = cursor;
-      setGlassOffset({
-        xOffset: -Math.floor(clientX / 40),
-      });
-    }
-    console.log(glassOffset);
-  }, [cursor]);
-
   return (
     <div id={styles.phoneContainer}>
       <img id={styles.bubble} src="/bubble.png" alt="text message bubble" />
