@@ -15,7 +15,10 @@ function Phone({ cursor }) {
   }, [cursor]);
 
   return (
-    <div id={styles.phoneContainer} style={{ right: glassOffset.xOffset}}>
+    <div id={styles.phoneContainer}>
+      <img id={styles.bubble} src="/bubble.png" alt="text message bubble" />
+      <img id={styles.chart} src="/chart.png" alt="pie chart" />
+      <img id={styles.bell} src="/bell.png" alt="notification bell" />
       <svg
         id={styles.phoneGlass}
         width={292}

@@ -32,7 +32,7 @@ const index = () => {
             </Button>
           </div>
         </div>
-        <Phone cursor={cursor}/>
+        <Phone cursor={cursor} />
         <img
           src="/orange-flare.png"
           id={styles.orangeFlare}
