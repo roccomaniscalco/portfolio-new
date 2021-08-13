@@ -1,8 +1,21 @@
-import styles from "../styles/components/phone.module.css"
+import { useEffect, useState } from "react";
+import styles from "../styles/components/phone.module.css";
 
-function Phone() {
+function Phone({ cursor }) {
+  const [glassOffset, setGlassOffset] = useState({ xOffset: 0, yOffset: 110 });
+
+  useEffect(() => {
+    if (cursor) {
+      const { clientX, clientY } = cursor;
+      setGlassOffset({
+        xOffset: -Math.floor(clientX / 40),
+      });
+    }
+    console.log(glassOffset);
+  }, [cursor]);
+
   return (
-    <div id={styles.phoneContainer}>
+    <div id={styles.phoneContainer} style={{ right: glassOffset.xOffset}}>
       <svg
         id={styles.phoneGlass}
         width={292}

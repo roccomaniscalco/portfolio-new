@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import useCursor from "../customHooks/useCursor";
 
 import Button from "../components/Button";
@@ -9,10 +9,6 @@ import styles from "../styles/index.module.css";
 
 const index = () => {
   const [cursor, targetEl] = useCursor();
-
-  useEffect(() => {
-    console.log(cursor);
-  }, [cursor]);
 
   return (
     <div id={styles.layoutContainer} ref={targetEl}>
@@ -36,7 +32,7 @@ const index = () => {
             </Button>
           </div>
         </div>
-        <Phone />
+        <Phone cursor={cursor}/>
         <img
           src="/orange-flare.png"
           id={styles.orangeFlare}

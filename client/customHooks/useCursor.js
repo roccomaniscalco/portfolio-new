@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-import MyApp from "../pages/_app";
 
 const useCursor = () => {
   const handleMouseMove = (e) => {
