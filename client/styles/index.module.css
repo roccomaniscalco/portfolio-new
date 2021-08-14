@@ -1,7 +1,7 @@
 #layoutContainer {
   display: flex;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
 
   overflow-x: hidden;
 }
@@ -31,17 +31,16 @@
   -webkit-text-fill-color: transparent;
 }
 
-#orangeFlare {
-  position: absolute;
-  top: auto;
-  left: 115px;
-  z-index: -99;
-}
-
 .btnGroup {
   margin-top: 2rem;
 
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .btnGroup {
+    background-color: lightblue;
+  }
 }

@@ -3,7 +3,7 @@ import useCursor from "../customHooks/useCursor";
 
 import Button from "../components/Button";
 import Icon from "../components/Icon";
-import Phone from "../components/Phone";
+import LandingGraphic from "../components/LandingGraphic";
 
 import styles from "../styles/index.module.css";
 
@@ -32,12 +32,7 @@ const index = () => {
             </Button>
           </div>
         </div>
-        <Phone cursor={cursor} />
-        <img
-          src="/orange-flare.png"
-          id={styles.orangeFlare}
-          alt="orange flare"
-        />
+        <LandingGraphic cursor={cursor} />
       </div>
     </div>
   );

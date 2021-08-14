@@ -1,6 +1,6 @@
 import styles from "../styles/components/phone.module.css";
 
-function Phone({ cursor }) {
+function Phone() {
   return (
     <div id={styles.phoneContainer}>
       <img id={styles.bubble} src="/bubble.png" alt="text message bubble" />
@@ -70,6 +70,7 @@ function Phone({ cursor }) {
         id={styles.phoneShell}
         alt="smart phone casing"
       />
+      <img src="/orange-flare.png" id={styles.orangeFlare} alt="orange flare" />
     </div>
   );
 }
