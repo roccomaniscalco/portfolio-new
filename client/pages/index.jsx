@@ -4,6 +4,7 @@ import useCursor from "../customHooks/useCursor";
 import Button from "../components/Button";
 import Icon from "../components/Icon";
 import LandingGraphic from "../components/LandingGraphic";
+import TechBadge from "../components/TechBadge";
 
 import styles from "../styles/index.module.css";
 
@@ -31,6 +32,7 @@ const index = () => {
               Download resume <Icon ciClass={"ci-download"} />
             </Button>
           </div>
+          <TechBadge label="HTML5" ciClass="ci-html5"/>
         </div>
         <LandingGraphic cursor={cursor} />
       </div>

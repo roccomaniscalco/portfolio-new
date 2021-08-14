@@ -1,0 +1,15 @@
+.badgeContainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    border-radius: 15px;
+    height: 8rem;
+    width: min-content;
+    padding: 0 5rem;
+
+    background-color: #11182270;
+    color: #DDE0E4;
+
+    font-size: 2rem;
+}

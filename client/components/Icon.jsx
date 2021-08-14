@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "../styles/components/icon.module.css";
 
-const Icon = ({ ciClass }) => {
-  return <i className={`${ciClass} ${styles.icon}`} />;
+const Icon = ({ ciClass, color }) => {
+  return <i className={`${ciClass} ${styles.icon}`} style={{color: color}} />;
 };
 
 export default Icon;
