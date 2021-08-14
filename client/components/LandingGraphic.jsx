@@ -1,4 +1,4 @@
-import styles from "../styles/components/phone.module.css";
+import styles from "../styles/components/landingGraphic.module.css";
 
 function Phone() {
   return (

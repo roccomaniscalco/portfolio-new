@@ -17,7 +17,7 @@
 #copyContainer {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   max-width: 58em;
 }
 
@@ -32,15 +32,9 @@
 }
 
 .btnGroup {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .btnGroup {
-    background-color: lightblue;
-  }
 }
