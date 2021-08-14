@@ -1,0 +1,44 @@
+#landingContainer {
+  height: 100vh;
+  max-height: 900px;
+  width: 100%;
+  padding: 0 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heroContainer {
+  width: 1080px;
+  max-width: 1080px;
+
+  display: flex;
+  position: relative;
+}
+
+#heroContent {
+  max-width: 58rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.fireText {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+
+  background: linear-gradient(180deg, #ee8e6b 20%, #fe5f75 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btnGroup {
+  margin-top: 1.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

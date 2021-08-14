@@ -1,11 +1,10 @@
-import React from "react";
 import Icon from "./Icon";
 
-import styles from "../styles/components/techBadge.module.css";
+import styles from "../styles/components/conveyorBelt.module.css";
 
 const TechBadge = ({ label, ciClass }) => {
   return (
-    <div className={styles.badgeContainer}>
+    <div className={styles.techBadge}>
       <Icon ciClass={ciClass} />
       {label}
     </div>

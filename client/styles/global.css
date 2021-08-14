@@ -20,6 +20,8 @@ body {
   --fire-700: #fe5f75;
 
   background-color: var(--dark-700);
+
+  overflow-x: hidden;
 }
 
 h1 {
