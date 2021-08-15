@@ -1,6 +1,6 @@
 import TechBadge from "./TechBadge";
 
-import styles from "../styles/components/conveyorBelt.module.css"
+import styles from "../styles/components/conveyorBelt.module.css";
 
 const ConveyorBelt = () => {
   const techBadges = [
@@ -26,7 +26,7 @@ const ConveyorBelt = () => {
     },
     {
       label: "MySQL",
-      ciClass: "ci-share",
+      ciClass: "ci-share_outline",
     },
     {
       label: "Node.js",
@@ -47,10 +47,12 @@ const ConveyorBelt = () => {
   ];
 
   return (
-    <div className={styles.conveyorBelt}>
-      {techBadges.map((techBadge) => (
-        <TechBadge {...techBadge} />
-      ))}
+    <div className={styles.conveyorBeltContainer}>
+      <div className={styles.conveyorBelt}>
+        {techBadges.map((techBadge) => (
+          <TechBadge {...techBadge} key={techBadge.label} />
+        ))}
+      </div>
     </div>
   );
 };

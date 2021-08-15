@@ -8,6 +8,13 @@
 
   height: 1509px;
   width: 1509px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  z-index: -1;
 }
 
 #phoneGlass {

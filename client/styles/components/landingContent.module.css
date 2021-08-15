@@ -1,6 +1,6 @@
 #landingContainer {
   height: 100vh;
-  max-height: 900px;
+  max-height: 96rem;
   width: 100%;
   padding: 0 4rem;
 
@@ -10,8 +10,8 @@
 }
 
 #heroContainer {
-  width: 1080px;
-  max-width: 1080px;
+  width: 108rem;
+  max-width: 108rem;
 
   display: flex;
   position: relative;
