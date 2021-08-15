@@ -8,6 +8,7 @@
 
   animation: slide 80s linear infinite;
   -webkit-animation: slide 80s linear infinite;
+}
 
 .techBadges {
   display: flex;
