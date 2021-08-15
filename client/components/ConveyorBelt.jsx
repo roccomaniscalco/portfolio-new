@@ -2,7 +2,7 @@ import TechBadge from "./TechBadge";
 
 import styles from "../styles/components/conveyorBelt.module.css";
 
-const ConveyorBelt = () => {
+const TechBadges = () => {
   const techBadges = [
     {
       label: "HTML5",
@@ -33,6 +33,10 @@ const ConveyorBelt = () => {
       ciClass: "ci-settings_future",
     },
     {
+      label: "Express.js",
+      ciClass: "ci-layers",
+    },
+    {
       label: "React.js",
       ciClass: "ci-grid_small",
     },
@@ -44,14 +48,31 @@ const ConveyorBelt = () => {
       label: "Material-UI",
       ciClass: "ci-dashboard",
     },
+    {
+      label: "Figma",
+      ciClass: "ci-Figma",
+    },
+    {
+      label: "amCharts",
+      ciClass: "ci-line_chart_up",
+    },
   ];
 
   return (
+    <div className={styles.techBadges}>
+      {techBadges.map((techBadge) => (
+        <TechBadge {...techBadge} key={techBadge.label} />
+      ))}
+    </div>
+  );
+};
+
+const ConveyorBelt = () => {
+  return (
     <div className={styles.conveyorBeltContainer}>
       <div className={styles.conveyorBelt}>
-        {techBadges.map((techBadge) => (
-          <TechBadge {...techBadge} key={techBadge.label} />
-        ))}
+        <TechBadges />
+        <TechBadges />
       </div>
     </div>
   );
