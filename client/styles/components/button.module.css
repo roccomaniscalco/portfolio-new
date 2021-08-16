@@ -2,7 +2,14 @@
   outline: none;
   border: none;
   background: none;
+  cursor: pointer;
 
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform ease 0.1s;
+}
+
+.btnContent {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -15,13 +22,21 @@
 }
 
 .btnPrimary {
-  padding: 1.2rem 3rem;
+  padding: 1.4rem 3rem;
   border-radius: 5rem;
   background: #5a45d8;
 }
 
 .btnSecondary {
-  padding: 1.2rem 3rem;
+  padding: 1.4rem 3rem;
   border-radius: 5rem;
   border: 1px solid #f3f4f5;
+}
+
+.btnContent {
+  transition: transform ease 0.3s;
+}
+
+.btn:hover .btnContent {
+  transform: translateZ(0.5em);
 }
