@@ -27,6 +27,7 @@
   margin: auto;
 
   z-index: -1;
+  will-change: transform;
   animation: glassLevitate 3s ease-in-out 1s infinite alternate;
 }
 
@@ -58,9 +59,9 @@
   right: 35%;
   bottom: 35%;
   left: 0;
-
   margin: auto;
 
+  will-change: transform;
   animation: bubbleLevitate 3s ease-in-out 1s infinite alternate;
 }
 
@@ -70,9 +71,9 @@
   right: 0;
   bottom: 0;
   left: 40%;
-
   margin: auto;
 
+  will-change: transform;
   animation: chartLevitate 3s ease-in-out 1s infinite alternate;
 }
 
@@ -82,9 +83,9 @@
   right: 42%;
   bottom: 0;
   left: 0;
-
   margin: auto;
 
+  will-change: transform;
   animation: bellLevitate 3s ease-in-out 1s infinite alternate;
 }
 
