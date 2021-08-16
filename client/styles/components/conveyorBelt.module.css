@@ -1,5 +1,6 @@
 .conveyorBeltContainer {
   width: 100%;
+  text-align: center;
 }
 
 .conveyorBelt {
@@ -20,13 +21,10 @@
   flex-wrap: nowrap;
   gap: 1rem;
 
-  border-radius: 10px;
   height: 8rem;
   width: min-content;
   padding: 0 5rem;
   margin: 0 1rem;
-
-  background-color: #11182280;
   color: #898f99;
 
   font-size: 1.6rem;

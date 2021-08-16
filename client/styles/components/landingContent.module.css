@@ -1,12 +1,16 @@
 #landingContainer {
   height: 100vh;
-  max-height: 96rem;
+  max-height: 93rem;
   width: 100%;
   padding: 0 4rem;
+  border-radius: 0 0 50px 50px;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #1b2635;
+  overflow: hidden;
 }
 
 #heroContainer {
@@ -23,6 +27,8 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+
+  z-index: 1;
 }
 
 .fireText {

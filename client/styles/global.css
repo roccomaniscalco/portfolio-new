@@ -15,12 +15,12 @@ body {
 
   --dark-500: #233044;
   --dark-700: #1b2635;
+  --dark-900: #111822;
 
   --fire-500: #ee8e6b;
   --fire-700: #fe5f75;
 
-  background-color: var(--dark-700);
-
+  background-color: #111822;
   overflow-x: hidden;
 }
 
