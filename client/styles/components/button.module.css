@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+  padding: 1.6rem 3rem;
 
   font-size: 1.6rem;
   font-weight: 600;
@@ -22,13 +23,11 @@
 }
 
 .btnPrimary {
-  padding: 1.6rem 3rem;
   border-radius: 5rem;
   background: #5a45d8;
 }
 
 .btnSecondary {
-  padding: 1.6rem 3rem;
   border-radius: 5rem;
   border: 1px solid #f3f4f5;
 }
@@ -38,5 +37,9 @@
 }
 
 .btn:hover .btnContent {
-  transform: translateZ(0.5em);
+  transform: translateZ(0.8em);
+}
+
+.btn:active .btnContent {
+  transform: translateZ(0em);
 }
