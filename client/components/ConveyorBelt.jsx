@@ -56,6 +56,10 @@ const TechBadges = () => {
       label: "amCharts",
       ciClass: "ci-line_chart_up",
     },
+    {
+      label: "Auth0",
+      ciClass: "ci-user_check",
+    },
   ];
 
   return (

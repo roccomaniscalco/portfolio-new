@@ -10,7 +10,8 @@ const Button = ({ primary, secondary, handleClick, children }) => {
   };
 
   return (
-    <div className={"btn-container"}
+    <div
+      className={"btn-container"}
       style={{
         transform: `perspective(${cursor.clientWidth}px) 
       rotateX(${cursor.rotationX}deg) 
