@@ -1,12 +1,14 @@
+.btn-container {
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition: transform ease 0.1s;
+}
+
 .btn {
   outline: none;
   border: none;
   background: none;
   cursor: pointer;
-
-  transform-style: preserve-3d;
-  will-change: transform;
-  transition: transform ease 0.1s;
 }
 
 .btnContent {

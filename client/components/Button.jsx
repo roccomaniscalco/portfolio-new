@@ -10,18 +10,21 @@ const Button = ({ primary, secondary, handleClick, children }) => {
   };
 
   return (
-    <button
-      className={`${styles.btn} ${switchStyles()}`}
-      onClick={handleClick}
-      ref={targetEl}
+    <div className={"btn-container"}
       style={{
         transform: `perspective(${cursor.clientWidth}px) 
-        rotateX(${cursor.rotationX}deg) 
-        rotateY(${cursor.rotationY}deg)`,
+      rotateX(${cursor.rotationX}deg) 
+      rotateY(${cursor.rotationY}deg)`,
       }}
     >
-      <div className={styles.btnContent}>{children}</div>
-    </button>
+      <button
+        className={`${styles.btn} ${switchStyles()}`}
+        onClick={handleClick}
+        ref={targetEl}
+      >
+        <div className={styles.btnContent}>{children}</div>
+      </button>
+    </div>
   );
 };
 
